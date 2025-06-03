@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+section {
+  padding: 2rem;
+}
+
+section {
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 900px;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#about {
+  background-color: #f0f8ff; 
+  color: #333;
+}
+#about h2 {
+  color: #2a5d9f;
+}
+
+#projects {
+  background-color: #fff8dc;
+  color: #333;
+}
+#projects h2 {
+  color: #b8860b;
+}
+
+#contact {
+  background-color: #e6f4ea; 
+  color: #333;
+}
+#contact h2 {
+  color: #2e8b57;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: #2e8b57;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #276f47;
+}
+
+form input, form textarea {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 10px;
+  width: 100%;
+}
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
